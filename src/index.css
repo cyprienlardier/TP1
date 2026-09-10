@@ -1,0 +1,89 @@
+/* index.css */
+@import "tailwindcss";
+
+@theme inline {
+
+
+  --clr-bg: var(--clr-bg);
+  --clr-fg: var(--clr-fg);
+
+
+}
+
+@layer base {
+  :root {
+   
+    /* Primary */
+    --clr-primary: hsl(163, 72%, 41%);
+    --clr-danger: hsl(356, 69%, 56%);
+
+   
+    --clr-facebook: hsl(208, 92%, 53%);
+    --clr-twitter: hsl(203, 89%, 53%);
+    --clr-youtube: hsl(348, 97%, 39%);
+
+  
+    --clr-instagram-start: hsl(37, 97%, 70%);
+    --clr-instagram-end: hsl(329, 70%, 58%);
+
+    /* Dark theme */
+    --clr-dark-bg: hsl(230, 17%, 14%);
+    --clr-dark-top-bg: hsl(232, 19%, 15%);
+    --clr-dark-card: hsl(228, 28%, 20%);
+    --clr-dark-text-muted: hsl(228, 34%, 66%);
+    --clr-dark-text: hsl(0, 0%, 100%);
+
+    /* Light theme */
+
+    --clr-light-bg: hsl(0, 0%, 100%);
+    --clr-light-top-bg: hsl(225, 100%, 98%);
+    --clr-light-card: hsl(227, 47%, 96%);
+    --clr-light-text-muted: hsl(228, 12%, 44%);
+    --clr-light-text: hsl(230, 17%, 14%);
+
+  
+    --clr-toggle-light: hsl(230, 22%, 74%);
+
+    --gradient-toggle: linear-gradient(
+      90deg,
+      hsl(210, 78%, 56%) 0%,
+      hsl(146, 68%, 55%) 100%
+    );
+
+    --gradient-instagram: linear-gradient(
+      90deg,
+      var(--clr-instagram-start) 0%,
+      var(--clr-instagram-end) 100%
+    );
+
+
+
+
+    /* Light theme */
+    
+
+    --clr-bg: var(--clr-light-bg);
+    --clr-top-bg: var(--clr-light-top-bg);
+    --clr-card: var(--clr-light-card);
+
+    --clr-fg: var(--clr-light-text);
+    --clr-text-muted: var(--clr-light-text-muted);
+
+    --clr-toggle: var(--clr-toggle-light);
+  }
+
+
+
+    /* Dark theme */
+  
+  .dark-mode {
+    --clr-bg: var(--clr-dark-bg);
+    --clr-top-bg: var(--clr-dark-top-bg);
+    --clr-card: var(--clr-dark-card);
+
+    --clr-fg: var(--clr-dark-text);
+    --clr-text-muted: var(--clr-dark-text-muted);
+
+    --clr-toggle: var(--gradient-toggle);
+  }
+}
