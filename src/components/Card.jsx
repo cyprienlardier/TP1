@@ -1,7 +1,9 @@
+import Icon from "./Icon";
 function Card({ platforme, user, total, today, icon }) {
     return (
-        <div className="card">
-            <icon name={icon} />
+        <div className="card">-
+            <Icon name={icon} />
+
             <img src={platforme} alt={platforme} />
             <p>User: {user}</p>
             <p>Total: {total}</p>
@@ -9,5 +11,6 @@ function Card({ platforme, user, total, today, icon }) {
         </div>
     );
 }
+
 
 export default Card;

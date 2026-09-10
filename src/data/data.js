@@ -1,28 +1,28 @@
 const data = [
     {
         id: 1,
-        icon: "Facebook",
+        icon: "facebook",
         user: "@nathanf",
         total: 1987,
         today: 12,
     },
     {
         id: 2,
-        icon: "Twitter",
+        icon: "twitter",
         user: "@nathanf",
         total: 1044,
         today: -99,
     },
     {
         id: 3,
-        icon: "Instagram",
+        icon: "instagram",
         user: "@realnathanf",
         total: 11283,
         today: +1099,
     },
     {
         id: 4,
-        icon: "Youtube",
+        icon: "youtube",
         user: "Nathan F.",
         total: 8239,
         today: -144,
